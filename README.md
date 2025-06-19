@@ -3,7 +3,7 @@
 A full-stack Twitter-style social media app built with React, Vite, Tailwind, and Express — featuring authentication, posting, likes, comments, follow system, image uploads, and more.
 
 🌍 **Live Demo**  
-👉 [twitter-clone-i2yb.onrender.com]((https://twitter-clone-gdgh.onrender.com))
+👉 https://twitter-clone-gdgh.onrender.com/login
 
 ---
 
