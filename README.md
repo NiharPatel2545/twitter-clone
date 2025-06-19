@@ -1,8 +1,21 @@
-# MERN Stack Project: Build and Deploy a Twitter Clone From Scratch | JWT, Socket.io
+# 🐦 Twitter Clone
 
-![Demo App](https://i.ibb.co/f8y9vGS/Group-82.png)
+A full-stack Twitter-style social media app built with React, Vite, Tailwind, and Express — featuring authentication, posting, likes, comments, follow system, image uploads, and more.
 
-[Video Tutorial on Youtube](https://youtu.be/4GUVz2psWUg)
+🌍 **Live Demo**  
+👉 [twitter-clone-i2yb.onrender.com](https://twitter-clone-i2yb.onrender.com)
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React, Vite, TailwindCSS, DaisyUI, React Router, React Query
+- **Backend:** Node.js, Express, MongoDB (with Mongoose)
+- **Auth:** JSON Web Tokens (JWT), cookies
+- **Image Uploads:** Base64 or Cloudinary (optional)
+- **Deployment:** Render
+
+---
 
 Some Features:
 
@@ -22,26 +35,42 @@ Some Features:
 -   🌐 Deployment
 -   ⏳ And much more!
 
-### Setup .env file
+---
 
-```js
-MONGO_URI=...
-PORT=...
-JWT_SECRET=...
-NODE_ENV=...
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-```
+## 🛠️ Getting Started
 
-### Build the app
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/twitter-clone.git
+   cd twitter-clone
 
-```shell
-npm run build
-```
+---
 
-### Start the app
+- Install dependencies
 
-```shell
-npm start
-```
+- Backend:
+  cd backend
+  npm install
+
+- Frontend:
+  cd frontend
+  npm install
+
+---
+
+# backend/.env.example
+PORT=
+MONGO_URI=
+JWT_SECRET=
+CLOUDINARY_API_KEY=
+
+---
+
+- Folder Structure:
+  root/
+├── backend/
+│   └── server files (Express, DB models, routes)
+├── frontend/
+│   └── client-side app (React + Vite)
+├── public/
+│   └── static assets
