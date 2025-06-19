@@ -59,10 +59,10 @@ Some Features:
 ---
 
 # backend/.env.example
-PORT=3000
-MONGO_URI=your-mongodb-uri
-JWT_SECRET=your-super-secret-key
-CLOUDINARY_API_KEY=your-key
+PORT=
+MONGO_URI=
+JWT_SECRET=
+CLOUDINARY_API_KEY=
 
 ---
 
